@@ -1,0 +1,66 @@
+﻿body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.full {
+    width: 100%;
+    background-color: aqua;
+    height: 100px;
+}
+
+.login {
+    width: 45%;
+    float: left;
+    padding: .75em 1em;
+    font-size: 1.2em;
+    text-align:center;
+}
+
+.btn {
+    max-height: 3.5em;
+    border: none;
+    padding: .75em 1.25em;
+    font-family: inherit;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+    cursor:pointer;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.header-image {
+    float: left;
+    width: 25%;
+    margin-top: 0em;
+    padding-right: 1em;
+    text-align: right;
+}
+
+.header-info {
+    float: left;
+    width: 70%;
+    margin-top: 0em;
+    color: black;
+}
+
+.self-clear::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#top_heading {
+    text-align:center;
+    font-size:3.6em;
+}
+
+.login_wrapper {
+    padding-top:200px;
+}
+

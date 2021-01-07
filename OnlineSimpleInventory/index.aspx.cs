@@ -16,4 +16,14 @@ public partial class content : System.Web.UI.Page
     {
         top_heading.InnerText = "Online Inventory System by Isere Osaze";
     }
+
+    protected void btnadmin_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    protected void btnadmin_Click1(object sender, EventArgs e)
+    {
+
+    }
 }
