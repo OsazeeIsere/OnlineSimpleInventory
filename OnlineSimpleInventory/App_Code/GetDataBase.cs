@@ -7,7 +7,7 @@ using System.Text;
 using MySql.Data;
 using MySql.Data.MySqlClient;
 
-namespace Simple_Inventory
+namespace onl
 {
     class GetDataBase
     {

@@ -8,6 +8,13 @@
     background-color: aqua;
     height: 100px;
 }
+.full1 {
+    width: 100%;
+    background-color:whitesmoke;
+    height: 100px;
+    padding: 0.75em 1em;
+    text-align:center;
+}
 
 .login {
     width: 45%;
@@ -15,6 +22,13 @@
     padding: .75em 1em;
     font-size: 1.2em;
     text-align:center;
+}
+.login1 {
+    width: 50%;
+    float:left;
+    padding: .75em 1em;
+    font-size: 1.2em;
+    text-align: center;
 }
 
 .btn {
@@ -47,6 +61,7 @@
     width: 70%;
     margin-top: 0em;
     color: black;
+    text-align:center;
 }
 
 .self-clear::after {
@@ -62,5 +77,8 @@
 
 .login_wrapper {
     padding-top:200px;
+}
+.login_wrapper1 {
+    padding-top: 20px;
 }
 
