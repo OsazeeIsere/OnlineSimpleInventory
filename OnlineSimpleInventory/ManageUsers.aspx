@@ -18,6 +18,7 @@
             <div class="login_wrapper1"><asp:Button ID="Button1" class="btn" runat="server" Text="Add Users" Height="60px" Width="226px" OnClick="Button1_Click"/>
                 <asp:Button ID="Button2" class="btn" runat="server" Text="Choose Activity" Height="60px" Width="226px" OnClick="Button2_Click"/>
             </div>
+                  
         </div>
     </div>
    

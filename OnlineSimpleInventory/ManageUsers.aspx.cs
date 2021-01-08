@@ -62,6 +62,7 @@ public partial class ManageUsers : System.Web.UI.Page
 
     protected void Button2_Click(object sender, EventArgs e)
     {
+        Response.Redirect("ManageStock.aspx");
 
     }
 }

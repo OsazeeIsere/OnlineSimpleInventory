@@ -8,9 +8,8 @@
     <div class="container">
         <div class="full1">
             <asp:TextBox ID="txtadminname" runat="server" Placeholder="Please, Enter Your Name" Font-Size="Large" Height="40px" Width="400px" BorderStyle="Ridge"></asp:TextBox>
-        </div>
-              <div class="full1">
-            <asp:TextBox ID="txtadminpassword" runat="server" Placeholder="Please, Enter Your Password" Font-Size="Large" Height="40px" Width="400px" BorderStyle="Ridge" TextMode="Password"></asp:TextBox><b></b>
+           <b></b>
+          <asp:TextBox ID="txtadminpassword" runat="server" Placeholder="Please, Enter Your Password" Font-Size="Large" Height="40px" Width="400px" BorderStyle="Ridge" TextMode="Password"></asp:TextBox><b></b>
                   <b></b>
             <div class="login_wrapper1"><asp:Button ID="Button1" class="btn" runat="server" Text="Submit" Height="60px" Width="226px" OnClick="Button1_Click"/></div>
         </div>
