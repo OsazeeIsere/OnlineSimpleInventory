@@ -9,7 +9,7 @@
                 <asp:Image ID="Image1" runat="server" ImageUrl="~/images/key3.jpg" Height="80px" ImageAlign="Middle" Width="50%" />
             </div>
             <div class="login">
-                <asp:Button ID="btnstaffpage" runat="server" CssClass="btn" Text="Staff Login" Height="81px" Width="50%" />
+                <asp:Button ID="btnstaffpage" runat="server" CssClass="btn" Text="Staff Login" Height="81px" Width="50%" OnClick="btnstaffpage_Click" />
                 <asp:Image ID="Image2" runat="server" ImageUrl="~/images/key3.jpg" Height="80px" ImageAlign="Middle" Width="50%" />
             </div>
         </div>

@@ -34,4 +34,9 @@ public partial class index : System.Web.UI.Page
             }
         }
     }
+
+    protected void btnstaffpage_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("~/StaffLogin.aspx");
+    }
 }

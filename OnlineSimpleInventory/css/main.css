@@ -4,16 +4,17 @@
 
 
 .full {
-    width: 100%;
+    max-width: 940px;
     background-color: aqua;
     height: 100px;
+    margin: 0 auto;
 }
 .full1 {
-    width: 100%;
-    background-color:whitesmoke;
-    height: 100px;
-    padding: 0.75em 1em;
-    text-align:center;
+    max-width: 940px;
+    background-color: whitesmoke;
+    text-align: center;
+    height:auto;
+    margin: 0 auto;
 }
 
 .login {
@@ -79,6 +80,6 @@
     padding-top:200px;
 }
 .login_wrapper1 {
-    padding-top: 20px;
+    padding-top:20px;
 }
 
