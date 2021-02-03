@@ -61,5 +61,8 @@ public class settings
 
 
     }
-
+    public void HideSearchArea()
+    {
+        string storevalue;
+    }
 }

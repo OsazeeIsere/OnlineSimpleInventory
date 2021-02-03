@@ -6,28 +6,78 @@
 <head runat="server">
     <title></title>
     <link rel="stylesheet" href="~/css/main.css" />
+    <link rel="stylesheet" href="~/dist/css/bootstrap.min.css" />
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body class="container">
     <form id="form1" runat="server">
-        <div>
-            <h1 id="top_heading" runat="server">Online Inventory Management System</h1>
-        </div>
-        <div class="full">
-            <div class="container">
-        <div class="header-image">
-            <a href="index.aspx"><img src="images/EDPLogo.JPG" style="height:100px;align-content:flex-start;" /></a>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="header-image">
+                        <a href="index.aspx"><img src="images/EDPLogo.JPG" style="height:100px;align-content:flex-start;" /></a>
             
-        </div>
-        <div class="header-info">
-                       
-            <h2 >EDO STATE ESSENTIAL DRUGS PROGRAMME</h2>
-            <h3>Medical Store Road Benin City </h3>
-        </div>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <h1 runat="server">Online Inventory Management System</h1>
+        
                 </div>
             </div>
-                    <div class="self-clear"></div>
+        </div>
+        
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+          <a class="navbar-brand" href="#">Navbar scroll</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                  Link
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Link</a>
+              </li>
+            </ul>
+            <div id ="shArea" runat = "server" class="d-flex">
+              <input class="form-control mr-2 " type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </div>
+          </div>
+        </nav>
+       
+            <div class="container">
+                <div class="row">
+                
+                <div class="col-12 text-center">
+                    <div>
+                       
+                        <h2 >EDO STATE ESSENTIAL DRUGS PROGRAMME</h2>
+                        <h3>Medical Store Road Benin City </h3>
+                    </div>
+
+                </div>
+              </div>
+        
+              </div>
+            
+              <div class="self-clear"></div>
            
         
     <div>
@@ -36,5 +86,6 @@
         </asp:ContentPlaceHolder>
     </div>
     </form>
+    <script src="~/dist/js/bootstrap.js"></script>
 </body>
 </html>

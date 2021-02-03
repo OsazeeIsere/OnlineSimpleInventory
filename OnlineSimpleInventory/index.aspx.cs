@@ -9,7 +9,9 @@ public partial class index : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-       
+        Control c = this.Master.FindControl("shArea");
+        c.Visible = false;
+
     }
 
 

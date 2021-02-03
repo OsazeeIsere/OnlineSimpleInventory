@@ -9,10 +9,12 @@ public partial class StaffLogin : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+        Control c = this.Master.FindControl("shArea");
+        c.Visible = false;
 
     }
     settings x = new settings();
-    protected void Button1_Click(object sender, EventArgs e)
+    protected void btnSubmit_Click(object sender, EventArgs e)
     {
         try
         {
@@ -33,8 +35,9 @@ public partial class StaffLogin : System.Web.UI.Page
                 {
                     if (txtusername.Text.ToUpper() == Convert.ToString(dtgetadmin.Rows[i]["staffname"]).ToUpper() && txtuserpassword.Text == (dtgetadmin.Rows[i]["staffpassword"]).ToString())
                     {
+                        Session["userName"] = txtusername.Text;
+                        
                         Response.Redirect("ManageStock.aspx");
-
                     }
                     else
                     {

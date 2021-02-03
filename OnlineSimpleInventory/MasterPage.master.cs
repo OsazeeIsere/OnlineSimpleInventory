@@ -7,8 +7,25 @@ using System.Web.UI.WebControls;
 
 public partial class MasterPage : System.Web.UI.MasterPage
 {
+    settings x = new settings();
+    public static string shArea1;
     protected void Page_Load(object sender, EventArgs e)
     {
-        top_heading.InnerText = "Online Inventory System";
+        
+
+            //if (shArea1 == "true")
+            //{
+
+            //    shArea.Visible = true;
+            //    shArea1 = "";
+            //}
+
+            //else if (shArea1 == null)
+
+            //{
+            //    shArea.Visible = false;
+
+            //}
+        
     }
 }
