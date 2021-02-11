@@ -40,6 +40,26 @@ public class settings
         cn.Close();
         return tempgetdatabase;
     }
+    public System.Data.DataSet getdataset(string strcommand)
+    {
+        System.Data.DataSet tempgetdatabase = null;
+        tempgetdatabase = new System.Data.DataSet();
+        MySqlConnection cn = new MySqlConnection();
+        MySqlDataAdapter ad = new MySqlDataAdapter();
+        MySqlCommand cm = new MySqlCommand();
+        string strconnection = "";
+        strconnection = "Server=localhost;Port=3306;Database=edp;Uid=root;Pwd=prayer;";
+        cn.ConnectionString = strconnection;
+        cn.Open();
+        cm.CommandText = strcommand;
+        ad.SelectCommand = cm;
+        cm.Connection = cn;
+        System.Data.DataSet dt = new System.Data.DataSet();
+        ad.Fill(dt);
+        tempgetdatabase = dt;
+        cn.Close();
+        return tempgetdatabase;
+    }
 
     public void addData(string sqlStatement)
     {
@@ -61,8 +81,5 @@ public class settings
 
 
     }
-    public void HideSearchArea()
-    {
-        string storevalue;
-    }
+   
 }
